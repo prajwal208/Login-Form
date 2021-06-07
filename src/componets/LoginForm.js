@@ -14,8 +14,10 @@ const initialValues = {
     }
 
     const onSubmit =  (values,onSubmitprops) => {
-        console.log("valuse is:",values)
+        console.log("value is",values)
+        alert("Successfully Submited")
         onSubmitprops.resetForm();
+       
 }
 
 
