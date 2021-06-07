@@ -1,0 +1,160 @@
+*{
+    background-color: teal;
+}
+
+.content1{
+    width: 1100px;
+    border-radius: 20px;
+    margin-left:200px;
+    margin-top: 60px;
+    height: 650px;
+    background-color:white;
+    display: flex;
+}
+
+
+#image1{
+   
+    width: 500px;
+    height: 650px;
+    border-radius: 20px;
+}
+
+h2{
+    margin-left: 200px;
+    color: teal;
+    font-weight: 750;
+    
+}
+
+p{
+    margin-left: 200px;
+
+}
+
+h6{
+    font-size: 18px;
+    margin-left: 170px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+form,.header-name,h2,p,label,input,ul,li,h6,.errors{
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+
+label{
+padding-right: 130px;
+}
+
+
+input{
+    padding: 6px;
+    width: 300px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #e9e7e7;
+    box-shadow:  5px 5px 17px #b3b2b2,
+                 -5px -5px 17px #ffffff;
+
+}
+
+#birthday{
+    margin-left: -50px;
+}
+
+#city{
+    margin-left: 16px;
+}
+
+#country{
+    margin-left: -14px;
+}
+
+#name{
+    margin-left: -5px;
+}
+
+#btn1{
+    margin-left:0;
+    margin-top: 50px;
+    width: 150px;
+    padding: 10px;
+}
+
+.errors{
+    color: red;
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 170px;
+    margin-top: 2px;
+}
+
+
+@media screen and (max-width:500px){
+
+    .content1{
+        width: 400px;
+        border-radius: 10px;
+        margin-left:0;
+        margin-top:0px;
+        height: 800px;
+        background-color:white;
+        display:block;
+    }
+
+    #image1{
+       width: 400px;
+       height: 300px;
+       border-radius: 10px; 
+    }
+
+
+    label{
+        padding-right: 60px;
+        }
+        
+        
+        input{
+            padding: 4px;
+            width: 270px;
+            margin-top: 30px;
+            outline: none;
+            border: none;
+            border-radius: 4px;
+            background: #e9e7e7;
+            box-shadow:  5px 5px 17px #b3b2b2,
+                         -5px -5px 17px #ffffff;
+        }
+
+
+        .header-name{
+            margin-left:-20px;
+        }
+
+        h2,p{
+            margin-left:140px;
+        }
+
+        h2{
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        
+        #btn1{
+            padding: 6px;
+            width: 110px;
+            }
+
+        h6{
+            font-size: 18px;
+            margin-left: 140px;
+        }
+    
+}
